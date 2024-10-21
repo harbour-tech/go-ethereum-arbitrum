@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/beacon/merkle"
+	"github.com/harbour-tech/go-ethereum-arbitrum/beacon/merkle"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/beacon/params"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 )

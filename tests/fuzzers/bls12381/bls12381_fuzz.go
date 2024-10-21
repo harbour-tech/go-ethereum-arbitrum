@@ -30,7 +30,7 @@ import (
 	gnark "github.com/consensys/gnark-crypto/ecc/bls12-381"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fp"
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto/bls12381"
 	blst "github.com/supranational/blst/bindings/go"
 )

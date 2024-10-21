@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/vm"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/vm"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/tests"
 	"github.com/urfave/cli/v2"
 )

@@ -18,7 +18,7 @@ package rlp
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp/internal/rlpstruct"
+	"github.com/harbour-tech/go-ethereum-arbitrum/rlp/internal/rlpstruct"
 	"reflect"
 	"sync"
 	"sync/atomic"

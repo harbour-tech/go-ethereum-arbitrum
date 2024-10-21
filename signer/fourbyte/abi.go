@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 )
 

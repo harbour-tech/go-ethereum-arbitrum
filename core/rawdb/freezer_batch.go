@@ -19,7 +19,7 @@ package rawdb
 import (
 	"fmt"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/math"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/math"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rlp"
 	"github.com/golang/snappy"
 )

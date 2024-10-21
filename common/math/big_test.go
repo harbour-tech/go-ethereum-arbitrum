@@ -19,7 +19,7 @@ package math
 import (
 	"bytes"
 	"encoding/hex"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
 	"testing"
 )

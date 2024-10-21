@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"sync"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum"
+	"github.com/harbour-tech/go-ethereum-arbitrum"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/accounts"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/hexutil"

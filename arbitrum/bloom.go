@@ -1,7 +1,7 @@
 package arbitrum
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/eth"
+	"github.com/harbour-tech/go-ethereum-arbitrum/eth"
 	"time"
 )
 

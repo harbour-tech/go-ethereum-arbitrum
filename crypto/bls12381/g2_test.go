@@ -3,7 +3,7 @@ package bls12381
 import (
 	"bytes"
 	"crypto/rand"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
 	"testing"
 )

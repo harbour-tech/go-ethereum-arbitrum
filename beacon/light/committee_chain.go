@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/beacon/params"
+	"github.com/harbour-tech/go-ethereum-arbitrum/beacon/params"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/beacon/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/lru"

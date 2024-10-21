@@ -18,7 +18,7 @@ package enode
 
 import (
 	"encoding/binary"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p/enr"
+	"github.com/harbour-tech/go-ethereum-arbitrum/p2p/enr"
 	"runtime"
 	"sync/atomic"
 	"testing"

@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/ethash"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/rawdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
@@ -1887,7 +1887,7 @@ func testRepairWithScheme(t *testing.T, tt *rewindTest, snapshots bool, scheme s
 	}
 }
 
-// TestIssue23496 tests scenario described in https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/pull/23496#issuecomment-926393893
+// TestIssue23496 tests scenario described in github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/pull/23496#issuecomment-926393893
 // Credits to @zzyalbert for finding the issue.
 //
 // Local chain owns these blocks:

@@ -19,7 +19,7 @@ package prometheus
 import (
 	"bytes"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
+	"github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 	"sort"
 	"strconv"
 	"strings"

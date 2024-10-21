@@ -19,7 +19,7 @@ package gasprice
 import (
 	"context"
 	"errors"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/rpc"
+	"github.com/harbour-tech/go-ethereum-arbitrum/rpc"
 	"math/big"
 	"testing"
 )

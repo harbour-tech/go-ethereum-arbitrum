@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/cmd/devp2p/internal/ethtest"
+	"github.com/harbour-tech/go-ethereum-arbitrum/cmd/devp2p/internal/ethtest"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/enode"

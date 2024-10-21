@@ -19,7 +19,7 @@ package catalyst
 import (
 	"sync"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/beacon/engine"
+	"github.com/harbour-tech/go-ethereum-arbitrum/beacon/engine"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/miner"

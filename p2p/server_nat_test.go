@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/testlog"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 )

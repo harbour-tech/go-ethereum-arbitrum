@@ -19,7 +19,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/asm"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/asm"
 	"os"
 	"strings"
 

@@ -21,7 +21,7 @@ import (
 	"crypto/sha256"
 	mrand "math/rand"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/beacon/merkle"
+	"github.com/harbour-tech/go-ethereum-arbitrum/beacon/merkle"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/beacon/params"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/beacon/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"

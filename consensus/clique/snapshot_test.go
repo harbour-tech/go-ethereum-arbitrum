@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/rawdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
@@ -367,7 +367,7 @@ func TestClique(t *testing.T) {
 			failure: errRecentlySigned,
 		}, {
 			// Recent signatures should not reset on checkpoint blocks imported in a new
-			// batch (https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/17593). Whilst this
+			// batch (github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/17593). Whilst this
 			// seems overly specific and weird, it was a Rinkeby consensus split.
 			epoch:   3,
 			signers: []string{"A", "B", "C"},

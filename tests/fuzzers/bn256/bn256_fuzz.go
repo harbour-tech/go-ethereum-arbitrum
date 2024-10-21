@@ -23,7 +23,7 @@ import (
 	"math/big"
 
 	"github.com/consensys/gnark-crypto/ecc/bn254"
-	cloudflare "https://github.com/harbour-tech/go-ethereum-arbitrum/crypto/bn256/cloudflare"
+	cloudflare "github.com/harbour-tech/go-ethereum-arbitrum/crypto/bn256/cloudflare"
 	google "github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto/bn256/google"
 )
 

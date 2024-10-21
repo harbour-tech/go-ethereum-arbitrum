@@ -18,7 +18,7 @@ package node_test
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/node"
+	"github.com/harbour-tech/go-ethereum-arbitrum/node"
 	"log"
 )
 

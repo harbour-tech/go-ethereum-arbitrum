@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/eth/filters"
+	"github.com/harbour-tech/go-ethereum-arbitrum/eth/filters"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/ethapi"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/node"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rpc"

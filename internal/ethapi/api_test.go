@@ -31,7 +31,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum"
+	"github.com/harbour-tech/go-ethereum-arbitrum"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/accounts"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/accounts/keystore"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"

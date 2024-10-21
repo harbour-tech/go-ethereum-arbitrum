@@ -19,7 +19,7 @@ package dbtest
 import (
 	"bytes"
 	"crypto/rand"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
+	"github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
 	"reflect"
 	"sort"
 	"testing"

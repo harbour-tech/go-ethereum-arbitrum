@@ -22,7 +22,7 @@ import (
 	"encoding/binary"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/lru"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/lru"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/mclock"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/enode"

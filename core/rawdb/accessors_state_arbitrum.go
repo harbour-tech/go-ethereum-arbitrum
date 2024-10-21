@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/ethdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 )

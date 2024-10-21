@@ -5,7 +5,7 @@ package native
 import (
 	"encoding/json"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/hexutil"
 )
 

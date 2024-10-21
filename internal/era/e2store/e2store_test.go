@@ -19,7 +19,7 @@ package e2store
 import (
 	"bytes"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"io"
 	"testing"
 )

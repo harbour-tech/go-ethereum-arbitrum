@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/misc/eip4844"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto"

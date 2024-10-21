@@ -28,7 +28,7 @@ import (
 	"io"
 	"math/big"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/hexutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"

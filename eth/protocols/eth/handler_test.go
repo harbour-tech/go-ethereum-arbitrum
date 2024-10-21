@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/beacon"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/ethash"

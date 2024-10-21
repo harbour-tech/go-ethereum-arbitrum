@@ -17,7 +17,7 @@
 // Package bind generates Ethereum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-ethereum Wiki page:
-// https://https://github.com/harbour-tech/go-ethereum-arbitrum/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
+// github.com/harbour-tech/go-ethereum-arbitrum/wiki/Native-DApps:-Go-bindings-to-Ethereum-contracts
 package bind
 
 import (
@@ -149,7 +149,7 @@ func Bind(types []string, abis []string, bytecodes []string, fsigs []map[string]
 			// Normalize the method for capital cases and non-anonymous inputs/outputs
 			normalized := original
 			// Ensure there is no duplicated identifier
-			var identifiers = callIdentifiers
+			identifiers := callIdentifiers
 			if !original.IsConstant() {
 				identifiers = transactIdentifiers
 			}

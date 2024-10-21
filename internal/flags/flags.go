@@ -21,7 +21,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/math"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/math"
 	"math/big"
 	"os"
 	"os/user"

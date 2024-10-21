@@ -18,7 +18,7 @@ package rlp_test
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp"
+	"github.com/harbour-tech/go-ethereum-arbitrum/rlp"
 	"io"
 )
 

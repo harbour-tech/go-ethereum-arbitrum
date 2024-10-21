@@ -26,7 +26,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/prque"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/misc/eip1559"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core"

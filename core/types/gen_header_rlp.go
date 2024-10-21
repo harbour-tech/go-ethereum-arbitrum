@@ -2,7 +2,7 @@
 
 package types
 
-import "https://github.com/harbour-tech/go-ethereum-arbitrum/rlp"
+import "github.com/harbour-tech/go-ethereum-arbitrum/rlp"
 import "io"
 
 func (obj *Header) EncodeRLP(_w io.Writer) error {

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/consensus"
+	"github.com/harbour-tech/go-ethereum-arbitrum/consensus"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/ethash"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/rawdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"

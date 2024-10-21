@@ -19,7 +19,7 @@ package snapshot
 import (
 	"bytes"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"sort"
 
 	"golang.org/x/exp/slices"

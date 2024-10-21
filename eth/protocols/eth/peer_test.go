@@ -23,7 +23,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/enode"
 )

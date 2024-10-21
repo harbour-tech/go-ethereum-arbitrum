@@ -18,7 +18,7 @@ package node
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/rpc"
+	"github.com/harbour-tech/go-ethereum-arbitrum/rpc"
 	"net/http"
 	"time"
 

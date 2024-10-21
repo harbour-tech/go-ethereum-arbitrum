@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"os"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/cmd/evm/internal/t8ntool"
+	"github.com/harbour-tech/go-ethereum-arbitrum/cmd/evm/internal/t8ntool"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/debug"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/flags"
 	"github.com/urfave/cli/v2"

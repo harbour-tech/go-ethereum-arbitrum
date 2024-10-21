@@ -19,7 +19,7 @@ package eth
 import (
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p"
+	"github.com/harbour-tech/go-ethereum-arbitrum/p2p"
 	"time"
 )
 

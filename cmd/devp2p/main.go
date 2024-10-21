@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/debug"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/debug"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/flags"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/enode"
 	"github.com/urfave/cli/v2"

@@ -17,7 +17,7 @@
 package trie
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 )
 
 // tracer tracks the changes of trie nodes. During the trie operations,

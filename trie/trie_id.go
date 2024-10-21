@@ -16,7 +16,7 @@
 
 package trie
 
-import "https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+import "github.com/harbour-tech/go-ethereum-arbitrum/common"
 
 // ID is the identifier for uniquely identifying a trie.
 type ID struct {

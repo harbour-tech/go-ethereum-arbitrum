@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/console/prompt"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth"

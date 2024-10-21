@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/cmd/utils"
 	"github.com/urfave/cli/v2"
 )

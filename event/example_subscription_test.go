@@ -18,7 +18,7 @@ package event_test
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/event"
+	"github.com/harbour-tech/go-ethereum-arbitrum/event"
 )
 
 func ExampleNewSubscription() {

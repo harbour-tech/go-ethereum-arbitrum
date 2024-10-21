@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/forkid"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p"

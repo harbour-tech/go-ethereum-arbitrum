@@ -23,7 +23,7 @@ import (
 	"time"
 	"unsafe"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/ethdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics"

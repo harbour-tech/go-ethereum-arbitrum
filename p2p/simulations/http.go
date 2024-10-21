@@ -30,7 +30,7 @@ import (
 	"strings"
 	"sync"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/event"
+	"github.com/harbour-tech/go-ethereum-arbitrum/event"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/enode"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/simulations/adapters"

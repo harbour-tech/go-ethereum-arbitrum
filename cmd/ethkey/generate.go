@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/cmd/utils"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto"
 	"github.com/google/uuid"

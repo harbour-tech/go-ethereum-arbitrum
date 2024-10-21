@@ -24,7 +24,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/misc/eip1559"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/misc/eip4844"
@@ -1183,7 +1183,7 @@ func (w *worker) commit(env *environment, interval func(), update bool, start ti
 			interval()
 		}
 		// Create a local environment copy, avoid the data race with snapshot state.
-		// https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/24299
+		// github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/24299
 		env := env.copy()
 		// Withdrawals are set to nil here, because this is only called in PoW.
 		block, err := w.engine.FinalizeAndAssemble(w.chain, env.header, env.state, env.txs, nil, env.receipts, nil)

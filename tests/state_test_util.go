@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/hexutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/math"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/misc/eip4844"

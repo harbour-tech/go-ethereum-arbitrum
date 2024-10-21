@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum"
+	"github.com/harbour-tech/go-ethereum-arbitrum"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"

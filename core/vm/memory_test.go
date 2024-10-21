@@ -2,7 +2,7 @@ package vm
 
 import (
 	"bytes"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"strings"
 	"testing"
 )

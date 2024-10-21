@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rlp"
 )
 

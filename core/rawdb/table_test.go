@@ -18,7 +18,7 @@ package rawdb
 
 import (
 	"bytes"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
+	"github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
 	"testing"
 )
 

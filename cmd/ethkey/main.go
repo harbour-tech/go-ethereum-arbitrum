@@ -18,7 +18,7 @@ package main
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/flags"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/flags"
 	"os"
 
 	"github.com/urfave/cli/v2"

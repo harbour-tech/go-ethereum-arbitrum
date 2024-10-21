@@ -18,7 +18,7 @@ package state
 
 import (
 	"bytes"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"testing"
 )
 

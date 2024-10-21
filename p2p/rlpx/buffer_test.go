@@ -18,7 +18,7 @@ package rlpx
 
 import (
 	"bytes"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

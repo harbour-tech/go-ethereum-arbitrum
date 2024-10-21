@@ -19,7 +19,7 @@ package blobpool
 import (
 	"bytes"
 	"container/heap"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math"
 	"sort"
 

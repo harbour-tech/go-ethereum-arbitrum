@@ -18,7 +18,7 @@ package secp256k1
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto/secp256k1"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto/secp256k1"
 	"testing"
 
 	"github.com/btcsuite/btcd/btcec/v2"

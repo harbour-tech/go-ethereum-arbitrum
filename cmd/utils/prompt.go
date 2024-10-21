@@ -19,7 +19,7 @@ package utils
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/console/prompt"
+	"github.com/harbour-tech/go-ethereum-arbitrum/console/prompt"
 )
 
 // GetPassPhrase displays the given text(prompt) to the user and requests some textual

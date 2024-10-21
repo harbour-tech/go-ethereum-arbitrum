@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/bitutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/rlpx"

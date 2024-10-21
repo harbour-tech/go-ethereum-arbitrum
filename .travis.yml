@@ -1,5 +1,5 @@
 language: go
-go_import_path: https://github.com/harbour-tech/go-ethereum-arbitrum
+go_import_path: github.com/harbour-tech/go-ethereum-arbitrum
 sudo: false
 jobs:
   allow_failures:

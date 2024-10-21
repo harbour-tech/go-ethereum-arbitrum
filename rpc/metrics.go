@@ -18,7 +18,7 @@ package rpc
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
+	"github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 	"time"
 )
 

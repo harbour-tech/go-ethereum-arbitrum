@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/scwallet"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/scwallet"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/accounts/usbwallet"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/hexutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/console/prompt"

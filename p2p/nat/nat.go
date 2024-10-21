@@ -20,7 +20,7 @@ package nat
 import (
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"net"
 	"strings"
 	"sync"

@@ -20,7 +20,7 @@ package p2p
 
 import (
 	"errors"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
+	"github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 	"net"
 )
 

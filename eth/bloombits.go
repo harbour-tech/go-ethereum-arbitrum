@@ -19,7 +19,7 @@ package eth
 import (
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/bitutil"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/bitutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/bloombits"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/rawdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/ethdb"

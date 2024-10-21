@@ -20,7 +20,7 @@ package asm
 import (
 	"encoding/hex"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/vm"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

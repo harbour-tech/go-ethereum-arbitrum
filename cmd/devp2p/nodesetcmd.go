@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/forkid"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/enr"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"

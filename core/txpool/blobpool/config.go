@@ -17,7 +17,7 @@
 package blobpool
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 )
 
 // Config are the configuration parameters of the blob transaction pool.

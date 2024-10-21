@@ -27,7 +27,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics"
 	"github.com/golang/snappy"

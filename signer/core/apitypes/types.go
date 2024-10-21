@@ -29,7 +29,7 @@ import (
 	"strconv"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/hexutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/math"
@@ -94,7 +94,7 @@ type SendTxArgs struct {
 
 	// We accept "data" and "input" for backwards-compatibility reasons.
 	// "input" is the newer name and should be preferred by clients.
-	// Issue detail: https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/15628
+	// Issue detail: github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/15628
 	Data  *hexutil.Bytes `json:"data,omitempty"`
 	Input *hexutil.Bytes `json:"input,omitempty"`
 

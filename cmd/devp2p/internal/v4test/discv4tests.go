@@ -24,7 +24,7 @@ import (
 	"net"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/utesting"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/discover/v4wire"
 )

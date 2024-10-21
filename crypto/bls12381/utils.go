@@ -18,7 +18,7 @@ package bls12381
 
 import (
 	"errors"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
 )
 

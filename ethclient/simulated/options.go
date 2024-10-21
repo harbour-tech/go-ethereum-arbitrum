@@ -19,7 +19,7 @@ package simulated
 import (
 	"math/big"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/eth/ethconfig"
+	"github.com/harbour-tech/go-ethereum-arbitrum/eth/ethconfig"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/node"
 )
 

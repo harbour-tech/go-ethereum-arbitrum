@@ -18,7 +18,7 @@ package debug
 
 import (
 	"errors"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"os"
 	"runtime/trace"
 )

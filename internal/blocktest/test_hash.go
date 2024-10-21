@@ -24,7 +24,7 @@ package blocktest
 
 import (
 	"hash"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 
 	"golang.org/x/crypto/sha3"
 )

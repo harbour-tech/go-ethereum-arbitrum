@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/math"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/beacon"
@@ -1755,7 +1755,7 @@ func testEIP161AccountRemoval(t *testing.T, scheme string) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/pull/15941
+// github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.HashScheme)
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.PathScheme)
@@ -2057,8 +2057,8 @@ func testInsertReceiptChainRollback(t *testing.T, scheme string) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//   - https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/18977
-//   - https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/pull/18988
+//   - github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/18977
+//   - github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	testLowDiffLongChain(t, rawdb.HashScheme)
 	testLowDiffLongChain(t, rawdb.PathScheme)

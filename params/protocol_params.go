@@ -17,7 +17,7 @@
 package params
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
 )
 

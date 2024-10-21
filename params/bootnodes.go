@@ -16,7 +16,7 @@
 
 package params
 
-import "https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+import "github.com/harbour-tech/go-ethereum-arbitrum/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

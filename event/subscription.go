@@ -18,7 +18,7 @@ package event
 
 import (
 	"context"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"sync"
 	"time"
 )

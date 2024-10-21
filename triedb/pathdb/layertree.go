@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/trie/trienode"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/trie/triestate"

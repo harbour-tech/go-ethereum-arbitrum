@@ -18,7 +18,7 @@ package era
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
 
 	ssz "github.com/ferranbt/fastssz"

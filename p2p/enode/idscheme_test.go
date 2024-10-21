@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/enr"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rlp"
 	"github.com/stretchr/testify/assert"

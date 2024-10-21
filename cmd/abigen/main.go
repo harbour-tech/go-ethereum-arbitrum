@@ -24,7 +24,7 @@ import (
 	"regexp"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi/bind"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi/bind"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/cmd/utils"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/compiler"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto"

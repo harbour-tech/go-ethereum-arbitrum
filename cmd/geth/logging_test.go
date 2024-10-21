@@ -23,7 +23,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/reexec"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/reexec"
 	"io"
 	"math/rand"
 	"os"

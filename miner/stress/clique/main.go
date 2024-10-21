@@ -26,7 +26,7 @@ import (
 	"os/signal"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/fdlimit"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core"

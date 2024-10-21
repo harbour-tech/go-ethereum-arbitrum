@@ -26,7 +26,7 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 
 	pcsc "github.com/gballet/go-libpcsclite"
 	"golang.org/x/crypto/pbkdf2"

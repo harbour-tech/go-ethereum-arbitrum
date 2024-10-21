@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/rawdb"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/rawdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/ethdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rlp"

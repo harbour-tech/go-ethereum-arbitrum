@@ -53,7 +53,7 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto/signify"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/build"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"

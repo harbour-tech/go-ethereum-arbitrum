@@ -18,7 +18,7 @@ package downloader
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/types"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/types"
 	"sync"
 	"sync/atomic"
 )

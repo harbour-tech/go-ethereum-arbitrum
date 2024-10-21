@@ -23,7 +23,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 	"math/big"
 	"math/rand"
 	"reflect"

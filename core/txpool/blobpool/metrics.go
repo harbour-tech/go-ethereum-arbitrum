@@ -16,7 +16,7 @@
 
 package blobpool
 
-import "https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
+import "github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 
 var (
 	// datacapGauge tracks the user's configured capacity for the blob pool. It

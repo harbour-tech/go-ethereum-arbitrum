@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/cmdtest"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/cmdtest"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/reexec"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rpc"
 )

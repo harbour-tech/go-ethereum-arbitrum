@@ -16,7 +16,7 @@
 
 package eth
 
-import "https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
+import "github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 
 // meters stores ingress and egress handshake meters.
 var meters bidirectionalMeters

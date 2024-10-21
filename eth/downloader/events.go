@@ -16,7 +16,7 @@
 
 package downloader
 
-import "https://github.com/harbour-tech/go-ethereum-arbitrum/core/types"
+import "github.com/harbour-tech/go-ethereum-arbitrum/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

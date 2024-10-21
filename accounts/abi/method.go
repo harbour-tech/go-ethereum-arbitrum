@@ -18,7 +18,7 @@ package abi
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"strings"
 )
 

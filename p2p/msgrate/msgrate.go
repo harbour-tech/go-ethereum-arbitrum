@@ -20,7 +20,7 @@ package msgrate
 import (
 	"context"
 	"errors"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"math"
 	"sort"
 	"sync"

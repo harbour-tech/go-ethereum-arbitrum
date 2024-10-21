@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"go/format"
 	"go/types"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp/internal/rlpstruct"
+	"github.com/harbour-tech/go-ethereum-arbitrum/rlp/internal/rlpstruct"
 	"sort"
 )
 

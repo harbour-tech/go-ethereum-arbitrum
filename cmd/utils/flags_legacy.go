@@ -19,7 +19,7 @@ package utils
 import (
 	"fmt"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/eth/ethconfig"
+	"github.com/harbour-tech/go-ethereum-arbitrum/eth/ethconfig"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/flags"
 	"github.com/urfave/cli/v2"
 )

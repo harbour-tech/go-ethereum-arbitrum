@@ -34,7 +34,7 @@ import (
 	"net"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto/ecies"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rlp"
 	"github.com/golang/snappy"

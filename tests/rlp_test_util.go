@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp"
+	"github.com/harbour-tech/go-ethereum-arbitrum/rlp"
 	"math/big"
 	"strings"
 )

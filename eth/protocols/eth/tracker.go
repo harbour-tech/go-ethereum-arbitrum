@@ -17,7 +17,7 @@
 package eth
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p/tracker"
+	"github.com/harbour-tech/go-ethereum-arbitrum/p2p/tracker"
 	"time"
 )
 

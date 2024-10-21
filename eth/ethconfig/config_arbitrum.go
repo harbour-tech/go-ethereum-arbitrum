@@ -16,7 +16,7 @@
 
 package ethconfig
 
-import "https://github.com/harbour-tech/go-ethereum-arbitrum/eth/downloader"
+import "github.com/harbour-tech/go-ethereum-arbitrum/eth/downloader"
 
 // The default config with archive mode enabled
 var ArchiveDefaults = Defaults

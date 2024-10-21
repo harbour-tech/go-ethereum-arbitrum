@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics/prometheus"
 )

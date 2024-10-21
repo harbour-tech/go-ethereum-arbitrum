@@ -3,7 +3,7 @@ package arbitrum
 import (
 	"context"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/arbitrum_types"
+	"github.com/harbour-tech/go-ethereum-arbitrum/arbitrum_types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
 )

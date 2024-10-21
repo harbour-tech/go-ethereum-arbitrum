@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/event"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics"

@@ -3,7 +3,7 @@ package arbitrum
 import (
 	"context"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/ethapi"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rpc"

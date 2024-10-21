@@ -19,7 +19,7 @@ package abi
 import (
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"reflect"
 	"regexp"
 	"strconv"

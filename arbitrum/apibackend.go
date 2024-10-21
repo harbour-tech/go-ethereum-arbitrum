@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum"
+	"github.com/harbour-tech/go-ethereum-arbitrum"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/accounts"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/arbitrum_types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"

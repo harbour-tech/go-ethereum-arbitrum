@@ -20,7 +20,7 @@ package ethash
 import (
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/consensus"
+	"github.com/harbour-tech/go-ethereum-arbitrum/consensus"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rpc"
 )

@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"math/bits"
 	"testing"
 )

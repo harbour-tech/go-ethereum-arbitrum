@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	ethcrypto "github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 )
 
 var (

@@ -20,7 +20,7 @@ package simulations
 
 import (
 	"encoding/json"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p/enode"
+	"github.com/harbour-tech/go-ethereum-arbitrum/p2p/enode"
 	"net/http"
 	"net/url"
 	"strconv"

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth/downloader"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"

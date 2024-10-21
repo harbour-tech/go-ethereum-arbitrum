@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/console/prompt"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/dnsdisc"

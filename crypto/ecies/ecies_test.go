@@ -36,7 +36,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"errors"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"math/big"
 	"testing"
 )

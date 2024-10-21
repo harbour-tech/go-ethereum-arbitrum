@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/cmdtest"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/cmdtest"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/reexec"
 )
 

@@ -21,7 +21,7 @@ import (
 	"errors"
 	"math/big"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/state"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/state"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"
 	"github.com/holiman/uint256"

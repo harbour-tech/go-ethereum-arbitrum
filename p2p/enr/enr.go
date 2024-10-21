@@ -37,7 +37,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp"
+	"github.com/harbour-tech/go-ethereum-arbitrum/rlp"
 	"io"
 	"sort"
 )

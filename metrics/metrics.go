@@ -6,7 +6,7 @@
 package metrics
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"os"
 	"runtime/metrics"
 	"runtime/pprof"

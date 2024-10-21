@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"math/bits"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/beacon/params"
+	"github.com/harbour-tech/go-ethereum-arbitrum/beacon/params"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/hexutil"
 	bls "github.com/protolambda/bls12-381-util"

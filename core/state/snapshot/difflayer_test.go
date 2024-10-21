@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/ethdb/memorydb"
 )

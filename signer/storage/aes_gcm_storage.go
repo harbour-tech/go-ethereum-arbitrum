@@ -21,7 +21,7 @@ import (
 	"crypto/cipher"
 	"crypto/rand"
 	"encoding/json"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"io"
 	"os"
 )

@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"hash"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/math"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/math"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/enode"
 	"golang.org/x/crypto/hkdf"

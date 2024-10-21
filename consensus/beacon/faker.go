@@ -19,7 +19,7 @@ package beacon
 import (
 	"math/big"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/consensus"
+	"github.com/harbour-tech/go-ethereum-arbitrum/consensus"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
 )
 

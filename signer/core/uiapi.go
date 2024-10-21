@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"os"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/accounts/keystore"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/math"

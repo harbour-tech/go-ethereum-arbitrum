@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"os"
 	"testing"
 	"time"

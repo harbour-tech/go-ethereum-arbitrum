@@ -19,7 +19,7 @@ package bitutil
 import (
 	"bytes"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 	"math/rand"
 	"testing"
 )

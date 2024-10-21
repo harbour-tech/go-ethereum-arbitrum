@@ -21,7 +21,7 @@ package kzg4844
 import (
 	"encoding/json"
 	"errors"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 	"sync"
 
 	gokzg4844 "github.com/crate-crypto/go-kzg-4844"

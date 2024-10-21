@@ -35,7 +35,7 @@ import (
 	"strings"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/accounts/keystore"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/cmd/utils"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
@@ -873,7 +873,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/20123
+	// github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}

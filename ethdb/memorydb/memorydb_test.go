@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
+	"github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/ethdb/dbtest"
 )
 

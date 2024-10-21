@@ -64,7 +64,7 @@ func TestTreeKey(t *testing.T) {
 
 // goos: darwin
 // goarch: amd64
-// pkg: https://github.com/harbour-tech/go-ethereum-arbitrum/trie/utils
+// pkg: github.com/harbour-tech/go-ethereum-arbitrum/trie/utils
 // cpu: VirtualApple @ 2.50GHz
 // BenchmarkTreeKey
 // BenchmarkTreeKey-8   	  398731	      2961 ns/op	      32 B/op	       1 allocs/op

@@ -19,7 +19,7 @@ package discover
 import (
 	"context"
 	"errors"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p/enode"
+	"github.com/harbour-tech/go-ethereum-arbitrum/p2p/enode"
 	"time"
 )
 

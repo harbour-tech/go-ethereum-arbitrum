@@ -17,7 +17,7 @@
 package ethash
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/types"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/types"
 	"math/big"
 
 	"github.com/holiman/uint256"

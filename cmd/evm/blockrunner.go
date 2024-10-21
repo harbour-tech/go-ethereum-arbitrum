@@ -24,7 +24,7 @@ import (
 	"regexp"
 	"sort"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/rawdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/vm"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth/tracers/logger"

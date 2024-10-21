@@ -26,7 +26,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/bitutil"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/bitutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto"
 )
 

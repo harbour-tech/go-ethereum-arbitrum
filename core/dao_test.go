@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/consensus/ethash"
+	"github.com/harbour-tech/go-ethereum-arbitrum/consensus/ethash"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/rawdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/vm"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"

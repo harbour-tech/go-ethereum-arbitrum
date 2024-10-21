@@ -18,7 +18,7 @@ package tests
 
 import (
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/params"
+	"github.com/harbour-tech/go-ethereum-arbitrum/params"
 	"math/big"
 	"sort"
 )

@@ -23,7 +23,7 @@ package debug
 import (
 	"bytes"
 	"errors"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"io"
 	"os"
 	"os/user"

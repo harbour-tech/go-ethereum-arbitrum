@@ -28,7 +28,7 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"golang.org/x/exp/slices"

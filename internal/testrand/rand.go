@@ -19,7 +19,7 @@ package testrand
 import (
 	crand "crypto/rand"
 	"encoding/binary"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	mrand "math/rand"
 )
 

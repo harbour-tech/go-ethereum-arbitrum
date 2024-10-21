@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"github.com/mattn/go-colorable"
 	"golang.org/x/exp/slog"

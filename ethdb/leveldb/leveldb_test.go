@@ -19,7 +19,7 @@ package leveldb
 import (
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
+	"github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"

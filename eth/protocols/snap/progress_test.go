@@ -18,7 +18,7 @@ package snap
 
 import (
 	"encoding/json"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"testing"
 )
 

@@ -17,7 +17,7 @@
 package console
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/jsre"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/jsre"
 	"testing"
 
 	"github.com/dop251/goja"

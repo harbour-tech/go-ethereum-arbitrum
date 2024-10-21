@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
+	"github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth/protocols/eth"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth/protocols/snap"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p"

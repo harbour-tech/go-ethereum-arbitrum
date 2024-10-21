@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 )
 
 var _ = (*headerMarshaling)(nil)

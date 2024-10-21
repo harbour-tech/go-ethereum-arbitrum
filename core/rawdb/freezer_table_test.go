@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
+	"github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 	"math/rand"
 	"os"
 	"path/filepath"

@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/state"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/vm"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"
@@ -77,7 +77,7 @@ func TestStoreCapture(t *testing.T) {
 }
 
 // Tests that blank fields don't appear in logs when JSON marshalled, to reduce
-// logs bloat and confusion. See https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/24487
+// logs bloat and confusion. See github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/24487
 func TestStructLogMarshalingOmitEmpty(t *testing.T) {
 	tests := []struct {
 		name string

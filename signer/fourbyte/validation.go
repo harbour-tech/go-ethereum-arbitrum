@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/signer/core/apitypes"
 )
 
@@ -54,7 +54,7 @@ func (db *Database) ValidateTransaction(selector *string, tx *apitypes.SendTxArg
 	if tx.To == nil {
 		// Contract creation should contain sufficient data to deploy a contract. A
 		// typical error is omitting sender due to some quirk in the javascript call
-		// e.g. https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/16106.
+		// e.g. github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/16106.
 		if len(data) == 0 {
 			// Prevent sending ether into black hole (show stopper)
 			if tx.Value.ToInt().Cmp(big.NewInt(0)) > 0 {

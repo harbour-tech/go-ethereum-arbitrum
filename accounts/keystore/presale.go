@@ -25,7 +25,7 @@ import (
 	"errors"
 	"fmt"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/crypto"
 	"github.com/google/uuid"
 	"golang.org/x/crypto/pbkdf2"

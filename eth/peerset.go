@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"sync"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth/protocols/eth"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth/protocols/snap"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p"

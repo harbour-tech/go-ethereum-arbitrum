@@ -21,7 +21,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"net/url"
 	"os"
 	"reflect"

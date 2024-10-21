@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
+	"github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics/internal"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 )

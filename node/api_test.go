@@ -18,7 +18,7 @@ package node
 
 import (
 	"bytes"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/rpc"
+	"github.com/harbour-tech/go-ethereum-arbitrum/rpc"
 	"io"
 	"net"
 	"net/http"

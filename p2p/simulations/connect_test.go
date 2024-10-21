@@ -19,7 +19,7 @@ package simulations
 import (
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/node"
+	"github.com/harbour-tech/go-ethereum-arbitrum/node"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/enode"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/simulations/adapters"
 )

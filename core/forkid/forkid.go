@@ -26,7 +26,7 @@ import (
 	"reflect"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/types"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"
 	"golang.org/x/exp/slices"

@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/cmd/evm/internal/compiler"
+	"github.com/harbour-tech/go-ethereum-arbitrum/cmd/evm/internal/compiler"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/cmd/utils"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core"

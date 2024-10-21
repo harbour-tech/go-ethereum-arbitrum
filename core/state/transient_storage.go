@@ -17,7 +17,7 @@
 package state
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 )
 
 // transientStorage is a representation of EIP-1153 "Transient Storage".

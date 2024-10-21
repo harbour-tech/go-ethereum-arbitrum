@@ -17,7 +17,7 @@
 package p2p
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"testing"
 	"time"
 )

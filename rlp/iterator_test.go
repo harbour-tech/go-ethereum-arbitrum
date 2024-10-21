@@ -17,7 +17,7 @@
 package rlp
 
 import (
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 	"testing"
 )
 

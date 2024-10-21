@@ -16,7 +16,7 @@
 
 package snapshot
 
-import "https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
+import "github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 
 // Metrics in generation
 var (

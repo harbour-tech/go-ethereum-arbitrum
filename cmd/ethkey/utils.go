@@ -19,7 +19,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/cmd/utils"
+	"github.com/harbour-tech/go-ethereum-arbitrum/cmd/utils"
 	"os"
 	"strings"
 

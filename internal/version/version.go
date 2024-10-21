@@ -23,7 +23,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/params"
+	"github.com/harbour-tech/go-ethereum-arbitrum/params"
 )
 
 const ourPath = "github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum" // Path to our module

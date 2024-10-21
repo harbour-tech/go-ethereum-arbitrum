@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/types"
 	"github.com/holiman/uint256"
 	"golang.org/x/exp/slices"

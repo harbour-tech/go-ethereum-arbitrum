@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/flags"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/flags"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/metrics/exp"

@@ -21,7 +21,7 @@ import (
 	"io"
 	"math/big"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/types"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/types"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rlp"
 )
 

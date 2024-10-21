@@ -19,7 +19,7 @@ package bloombits
 import (
 	"bytes"
 	crand "crypto/rand"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/types"
+	"github.com/harbour-tech/go-ethereum-arbitrum/core/types"
 	"math/rand"
 	"testing"
 )

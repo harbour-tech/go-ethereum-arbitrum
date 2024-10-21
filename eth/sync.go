@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/rawdb"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/txpool"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth/downloader"

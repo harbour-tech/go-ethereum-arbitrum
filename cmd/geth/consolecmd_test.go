@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/version"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/version"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"
 )
 

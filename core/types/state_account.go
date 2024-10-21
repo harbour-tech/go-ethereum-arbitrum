@@ -19,7 +19,7 @@ package types
 import (
 	"bytes"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rlp"
 	"github.com/holiman/uint256"
 )

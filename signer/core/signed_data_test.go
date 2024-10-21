@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/keystore"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/hexutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/math"

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus/misc"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/state"

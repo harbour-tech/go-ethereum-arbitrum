@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://https://github.com/harbour-tech/go-ethereum-arbitrum/issues"
-!define UPDATEURL "https://https://github.com/harbour-tech/go-ethereum-arbitrum/releases"
-!define ABOUTURL "https://https://github.com/harbour-tech/go-ethereum-arbitrum#ethereum-go"
+!define HELPURL "github.com/harbour-tech/go-ethereum-arbitrum/issues"
+!define UPDATEURL "github.com/harbour-tech/go-ethereum-arbitrum/releases"
+!define ABOUTURL "github.com/harbour-tech/go-ethereum-arbitrum#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

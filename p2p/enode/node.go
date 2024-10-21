@@ -26,7 +26,7 @@ import (
 	"net"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p/enr"
+	"github.com/harbour-tech/go-ethereum-arbitrum/p2p/enr"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/rlp"
 )
 

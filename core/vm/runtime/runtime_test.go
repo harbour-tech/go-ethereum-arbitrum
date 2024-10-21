@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/consensus"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core"
@@ -600,7 +600,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/22649
+// see: github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

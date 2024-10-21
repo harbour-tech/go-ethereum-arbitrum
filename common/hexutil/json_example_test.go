@@ -19,7 +19,7 @@ package hexutil_test
 import (
 	"encoding/json"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 )
 
 type MyType [5]byte

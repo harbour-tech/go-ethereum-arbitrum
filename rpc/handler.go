@@ -19,7 +19,7 @@ package rpc
 import (
 	"context"
 	"encoding/json"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"reflect"
 	"strconv"
 	"strings"

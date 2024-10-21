@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"sync"
 	"testing"
 

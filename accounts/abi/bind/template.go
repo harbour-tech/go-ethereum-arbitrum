@@ -16,7 +16,7 @@
 
 package bind
 
-import "https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi"
+import "github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {

@@ -24,7 +24,7 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/ethapi"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/ethapi"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/jsre/deps"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/signer/core"

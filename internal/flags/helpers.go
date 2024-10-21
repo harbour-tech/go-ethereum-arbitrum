@@ -23,7 +23,7 @@ import (
 	"sort"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/version"
+	"github.com/harbour-tech/go-ethereum-arbitrum/internal/version"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"
 	"github.com/mattn/go-isatty"

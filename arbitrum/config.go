@@ -3,7 +3,7 @@ package arbitrum
 import (
 	"time"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/eth/ethconfig"
+	"github.com/harbour-tech/go-ethereum-arbitrum/eth/ethconfig"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/params"
 	flag "github.com/spf13/pflag"
 )

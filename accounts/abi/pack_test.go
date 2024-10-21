@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math"
 	"math/big"
 	"reflect"

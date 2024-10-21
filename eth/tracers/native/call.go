@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi"
+	"github.com/harbour-tech/go-ethereum-arbitrum/accounts/abi"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/common/hexutil"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/core/vm"
@@ -41,7 +41,7 @@ type callLog struct {
 	Topics  []common.Hash  `json:"topics"`
 	Data    hexutil.Bytes  `json:"data"`
 	// Position of the log relative to subcalls within the same trace
-	// See https://github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/pull/28389 for details
+	// See github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/pull/28389 for details
 	Position hexutil.Uint `json:"position"`
 }
 

@@ -22,7 +22,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"io"
 	"math/rand"
 	"os"

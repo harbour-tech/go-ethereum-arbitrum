@@ -30,7 +30,7 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/console/prompt"
+	"github.com/harbour-tech/go-ethereum-arbitrum/console/prompt"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/jsre"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/jsre/deps"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/web3ext"

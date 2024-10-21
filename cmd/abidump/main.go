@@ -23,7 +23,7 @@ import (
 	"os"
 	"strings"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/signer/core/apitypes"
+	"github.com/harbour-tech/go-ethereum-arbitrum/signer/core/apitypes"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/signer/fourbyte"
 )
 

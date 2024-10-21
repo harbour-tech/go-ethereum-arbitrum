@@ -5,7 +5,7 @@ import (
 	"unicode"
 
 	// Force-load native and js packages, to trigger registration
-	_ "https://github.com/harbour-tech/go-ethereum-arbitrum/eth/tracers/js"
+	_ "github.com/harbour-tech/go-ethereum-arbitrum/eth/tracers/js"
 	_ "github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/eth/tracers/native"
 )
 

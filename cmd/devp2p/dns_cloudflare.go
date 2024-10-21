@@ -23,7 +23,7 @@ import (
 	"strings"
 
 	"github.com/cloudflare/cloudflare-go"
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+	"github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/p2p/dnsdisc"
 	"github.com/urfave/cli/v2"
 )

@@ -19,7 +19,7 @@ package main
 import (
 	"os"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/cmd/devp2p/internal/v4test"
+	"github.com/harbour-tech/go-ethereum-arbitrum/cmd/devp2p/internal/v4test"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/flags"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/internal/utesting"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"

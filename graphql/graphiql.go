@@ -27,7 +27,7 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"https://github.com/harbour-tech/go-ethereum-arbitrum/graphql/internal/graphiql"
+	"github.com/harbour-tech/go-ethereum-arbitrum/graphql/internal/graphiql"
 	"github.com/harbour-tech/go-ethereum-arbitrum/go-ethereum-arbitrum/log"
 )
 
