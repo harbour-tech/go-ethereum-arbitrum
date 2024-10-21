@@ -3,10 +3,9 @@ package bls12381
 import (
 	"bytes"
 	"crypto/rand"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 func (g *G2) one() *PointG2 {

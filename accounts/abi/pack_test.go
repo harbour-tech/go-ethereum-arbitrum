@@ -20,14 +20,13 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math"
 	"math/big"
 	"reflect"
 	"strconv"
 	"strings"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go
@@ -48,7 +47,6 @@ func TestPack(t *testing.T) {
 			}
 			var packed []byte
 			packed, err = inAbi.Pack("method", test.unpacked)
-
 			if err != nil {
 				t.Fatalf("test %d (%v) failed: %v", i, test.def, err)
 			}
@@ -79,7 +77,7 @@ func TestMethodPack(t *testing.T) {
 		t.Errorf("expected %x got %x", sig, packed)
 	}
 
-	var addrA, addrB = common.Address{1}, common.Address{2}
+	addrA, addrB := common.Address{1}, common.Address{2}
 	sig = abi.Methods["sliceAddress"].ID
 	sig = append(sig, common.LeftPadBytes([]byte{32}, 32)...)
 	sig = append(sig, common.LeftPadBytes([]byte{2}, 32)...)
@@ -94,7 +92,7 @@ func TestMethodPack(t *testing.T) {
 		t.Errorf("expected %x got %x", sig, packed)
 	}
 
-	var addrC, addrD = common.Address{3}, common.Address{4}
+	addrC, addrD := common.Address{3}, common.Address{4}
 	sig = abi.Methods["sliceMultiAddress"].ID
 	sig = append(sig, common.LeftPadBytes([]byte{64}, 32)...)
 	sig = append(sig, common.LeftPadBytes([]byte{160}, 32)...)

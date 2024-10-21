@@ -19,11 +19,11 @@ package dbtest
 import (
 	"bytes"
 	"crypto/rand"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
 	"reflect"
 	"sort"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/ethdb"
 	"golang.org/x/exp/slices"
 )
 

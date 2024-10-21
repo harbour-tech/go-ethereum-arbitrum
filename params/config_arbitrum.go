@@ -17,15 +17,16 @@
 package params
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
-const ArbosVersion_FixRedeemGas = uint64(11)
-const ArbosVersion_Stylus = uint64(30)
-const ArbosVersion_StylusFixes = uint64(31)
-const ArbosVersion_StylusChargingFixes = uint64(32)
+const (
+	ArbosVersion_FixRedeemGas        = uint64(11)
+	ArbosVersion_Stylus              = uint64(30)
+	ArbosVersion_StylusFixes         = uint64(31)
+	ArbosVersion_StylusChargingFixes = uint64(32)
+)
 
 type ArbitrumChainParams struct {
 	EnableArbOS               bool

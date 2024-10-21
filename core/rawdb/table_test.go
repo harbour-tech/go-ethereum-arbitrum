@@ -18,9 +18,8 @@ package rawdb
 
 import (
 	"bytes"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 func TestTableDatabase(t *testing.T)            { testTableDatabase(t, "prefix") }
@@ -44,7 +43,7 @@ func (r *testReplayer) Delete(key []byte) error {
 func testTableDatabase(t *testing.T, prefix string) {
 	db := NewTable(NewMemoryDatabase(), prefix)
 
-	var entries = []struct {
+	entries := []struct {
 		key   []byte
 		value []byte
 	}{

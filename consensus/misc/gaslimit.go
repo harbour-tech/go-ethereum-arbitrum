@@ -18,8 +18,7 @@ package misc
 
 import (
 	"fmt"
-
-	"github.com/ethereum/go-ethereum/params"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

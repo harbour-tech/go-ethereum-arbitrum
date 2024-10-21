@@ -17,10 +17,10 @@
 package console
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/jsre"
 	"testing"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/internal/jsre"
 )
 
 // TestUndefinedAsParam ensures that personal functions can receive

@@ -18,9 +18,8 @@ package abi
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"strings"
-
-	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

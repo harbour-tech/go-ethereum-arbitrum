@@ -18,6 +18,7 @@ package node
 
 import (
 	"bytes"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rpc"
 	"io"
 	"net"
 	"net/http"
@@ -25,7 +26,6 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/stretchr/testify/assert"
 )
 

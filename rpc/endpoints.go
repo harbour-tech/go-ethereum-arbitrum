@@ -17,10 +17,9 @@
 package rpc
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"net"
 	"strings"
-
-	"github.com/ethereum/go-ethereum/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

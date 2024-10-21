@@ -17,9 +17,8 @@
 package vm
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 func FuzzPrecompiledContracts(f *testing.F) {

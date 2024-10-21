@@ -18,9 +18,8 @@ package state
 
 import (
 	"bytes"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

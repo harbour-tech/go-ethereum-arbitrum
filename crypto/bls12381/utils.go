@@ -18,9 +18,8 @@ package bls12381
 
 import (
 	"errors"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 func bigFromHex(hex string) *big.Int {

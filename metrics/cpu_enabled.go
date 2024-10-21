@@ -20,7 +20,8 @@
 package metrics
 
 import (
-	"github.com/ethereum/go-ethereum/log"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
+
 	"github.com/shirou/gopsutil/cpu"
 )
 

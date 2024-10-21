@@ -20,6 +20,7 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"net/http"
 	"net/url"
 	"os"
@@ -28,7 +29,6 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/gorilla/websocket"
 )
 
@@ -51,7 +51,7 @@ func (s *Server) WebsocketHandler(allowedOrigins []string, wsReadLimit int64) ht
 	if wsReadLimit == 0 {
 		wsReadLimit = wsDefaultReadLimit
 	}
-	var upgrader = websocket.Upgrader{
+	upgrader := websocket.Upgrader{
 		ReadBufferSize:  wsReadBuffer,
 		WriteBufferSize: wsWriteBuffer,
 		WriteBufferPool: wsBufferPool,
@@ -345,7 +345,7 @@ func (wc *websocketCodec) writeJSON(ctx context.Context, v interface{}, isError 
 
 // pingLoop sends periodic ping frames when the connection is idle.
 func (wc *websocketCodec) pingLoop() {
-	var pingTimer = time.NewTimer(wsPingInterval)
+	pingTimer := time.NewTimer(wsPingInterval)
 	defer wc.wg.Done()
 	defer pingTimer.Stop()
 

@@ -17,9 +17,8 @@
 package snap
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

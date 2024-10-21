@@ -18,9 +18,8 @@ package simulations
 
 import (
 	"context"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p/enode"
 	"time"
-
-	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

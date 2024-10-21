@@ -19,13 +19,12 @@ package rpc
 import (
 	"context"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"reflect"
 	"runtime"
 	"strings"
 	"sync"
 	"unicode"
-
-	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

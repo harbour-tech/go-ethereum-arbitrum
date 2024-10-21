@@ -19,13 +19,12 @@ package rpc
 import (
 	"context"
 	"encoding/json"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"reflect"
 	"strconv"
 	"strings"
 	"sync"
 	"time"
-
-	"github.com/ethereum/go-ethereum/log"
 )
 
 // handler handles JSON-RPC messages. There is one handler per connection. Note that

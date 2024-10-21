@@ -21,10 +21,9 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp"
 	"math/big"
 	"strings"
-
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

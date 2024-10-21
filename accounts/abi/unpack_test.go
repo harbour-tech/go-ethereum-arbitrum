@@ -20,6 +20,7 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math"
 	"math/big"
 	"reflect"
@@ -27,7 +28,6 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )
 
@@ -36,7 +36,7 @@ func TestUnpack(t *testing.T) {
 	t.Parallel()
 	for i, test := range packUnpackTests {
 		t.Run(strconv.Itoa(i)+" "+test.def, func(t *testing.T) {
-			//Unpack
+			// Unpack
 			def := fmt.Sprintf(`[{ "name" : "method", "type": "function", "outputs": %s}]`, test.def)
 			abi, err := JSON(strings.NewReader(def))
 			if err != nil {
@@ -228,7 +228,7 @@ func TestLocalUnpackTests(t *testing.T) {
 	t.Parallel()
 	for i, test := range unpackTests {
 		t.Run(strconv.Itoa(i), func(t *testing.T) {
-			//Unpack
+			// Unpack
 			def := fmt.Sprintf(`[{ "name" : "method", "type": "function", "outputs": %s}]`, test.def)
 			abi, err := JSON(strings.NewReader(def))
 			if err != nil {
@@ -310,7 +310,7 @@ type methodMultiOutput struct {
 func methodMultiReturn(require *require.Assertions) (ABI, []byte, methodMultiOutput) {
 	const definition = `[
 	{ "name" : "multi", "type": "function", "outputs": [ { "name": "Int", "type": "uint256" }, { "name": "String", "type": "string" } ] }]`
-	var expected = methodMultiOutput{big.NewInt(1), "hello"}
+	expected := methodMultiOutput{big.NewInt(1), "hello"}
 
 	abi, err := JSON(strings.NewReader(definition))
 	require.NoError(err)
@@ -337,7 +337,7 @@ func TestMethodMultiReturn(t *testing.T) {
 
 	abi, data, expected := methodMultiReturn(require.New(t))
 	bigint := new(big.Int)
-	var testCases = []struct {
+	testCases := []struct {
 		dest     interface{}
 		expected interface{}
 		error    string
@@ -506,7 +506,7 @@ func TestMultiReturnWithDeeplyNestedArray(t *testing.T) {
 	// construct the test array, each 3 char element is joined with 61 '0' chars,
 	// to from the ((3 + 61) * 0.5) = 32 byte elements in the array.
 	buff.Write(common.Hex2Bytes(strings.Join([]string{
-		"", //empty, to apply the 61-char separator to the first element as well.
+		"", // empty, to apply the 61-char separator to the first element as well.
 		"111", "112", "113", "121", "122", "123",
 		"211", "212", "213", "221", "222", "223",
 		"311", "312", "313", "321", "322", "323",
@@ -802,7 +802,7 @@ func TestUnpackTuple(t *testing.T) {
 	type r struct {
 		Result v
 	}
-	var ret0 = new(r)
+	ret0 := new(r)
 	err = abi.UnpackIntoInterface(ret0, "tuple", buff.Bytes())
 
 	if err != nil {
@@ -861,7 +861,7 @@ func TestUnpackTuple(t *testing.T) {
 		A      *big.Int
 	}
 	var ret Ret
-	var expected = Ret{
+	expected := Ret{
 		FieldS: S{
 			A: big.NewInt(1),
 			B: []*big.Int{big.NewInt(1), big.NewInt(2)},

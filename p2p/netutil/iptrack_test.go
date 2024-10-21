@@ -19,10 +19,9 @@ package netutil
 import (
 	crand "crypto/rand"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"testing"
 	"time"
-
-	"github.com/ethereum/go-ethereum/common/mclock"
 )
 
 const (

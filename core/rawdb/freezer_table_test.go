@@ -20,6 +20,7 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 	"math/rand"
 	"os"
 	"path/filepath"
@@ -28,7 +29,6 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/stretchr/testify/require"
 )
 
@@ -1214,7 +1214,7 @@ func (randTest) Generate(r *rand.Rand, size int) reflect.Value {
 
 		// addItems appends the given length items into the table.
 		addItems = func(n int) []uint64 {
-			var first = deleted
+			first := deleted
 			if len(items) != 0 {
 				first = items[len(items)-1] + 1
 			}

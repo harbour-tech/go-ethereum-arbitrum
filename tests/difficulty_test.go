@@ -17,10 +17,9 @@
 package tests
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/params"
 	"math/big"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/params"
 )
 
 var (

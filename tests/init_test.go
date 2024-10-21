@@ -20,6 +20,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/params"
 	"io"
 	"os"
 	"path/filepath"
@@ -29,8 +30,6 @@ import (
 	"sort"
 	"strings"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/params"
 )
 
 var (

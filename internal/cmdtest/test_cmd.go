@@ -20,6 +20,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/reexec"
 	"io"
 	"os"
 	"os/exec"
@@ -31,8 +32,6 @@ import (
 	"testing"
 	"text/template"
 	"time"
-
-	"github.com/ethereum/go-ethereum/internal/reexec"
 )
 
 func NewTestCmd(t *testing.T, data interface{}) *TestCmd {

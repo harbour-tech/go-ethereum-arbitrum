@@ -17,10 +17,9 @@
 package vm
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"math/bits"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func TestJumpDestAnalysis(t *testing.T) {
@@ -71,6 +70,7 @@ func BenchmarkJumpdestAnalysis_1200k(bench *testing.B) {
 	}
 	bench.StopTimer()
 }
+
 func BenchmarkJumpdestHashing_1200k(bench *testing.B) {
 	// 4 ms
 	code := make([]byte, analysisCodeSize)

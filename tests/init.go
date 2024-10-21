@@ -18,10 +18,9 @@ package tests
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/params"
 	"math/big"
 	"sort"
-
-	"github.com/ethereum/go-ethereum/params"
 )
 
 func u64(val uint64) *uint64 { return &val }

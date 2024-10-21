@@ -19,9 +19,8 @@ package discover
 import (
 	"context"
 	"errors"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p/enode"
 	"time"
-
-	"github.com/ethereum/go-ethereum/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

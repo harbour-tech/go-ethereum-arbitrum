@@ -19,9 +19,8 @@ package main
 import (
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/cmd/evm/internal/compiler"
 	"os"
-
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/compiler"
 
 	"github.com/urfave/cli/v2"
 )

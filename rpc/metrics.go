@@ -18,9 +18,8 @@ package rpc
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 	"time"
-
-	"github.com/ethereum/go-ethereum/metrics"
 )
 
 var (

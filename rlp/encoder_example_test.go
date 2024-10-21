@@ -18,9 +18,8 @@ package rlp_test
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp"
 	"io"
-
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 type MyCoolType struct {

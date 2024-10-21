@@ -17,10 +17,9 @@
 package keystore
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"os"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 const (

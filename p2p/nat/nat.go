@@ -20,12 +20,12 @@ package nat
 import (
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"net"
 	"strings"
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
 	natpmp "github.com/jackpal/go-nat-pmp"
 )
 

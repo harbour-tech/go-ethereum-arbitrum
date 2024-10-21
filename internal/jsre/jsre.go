@@ -22,13 +22,13 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"io"
 	"math/rand"
 	"os"
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // JSRE is a JS runtime environment embedding the goja interpreter.

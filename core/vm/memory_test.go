@@ -2,10 +2,9 @@ package vm
 
 import (
 	"bytes"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"strings"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 func TestMemoryCopy(t *testing.T) {

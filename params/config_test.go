@@ -17,12 +17,11 @@
 package params
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/math"
 	"math/big"
 	"reflect"
 	"testing"
 	"time"
-
-	"github.com/ethereum/go-ethereum/common/math"
 )
 
 func TestCheckCompatible(t *testing.T) {

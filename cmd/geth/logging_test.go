@@ -23,14 +23,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/internal/reexec"
 	"io"
 	"math/rand"
 	"os"
 	"os/exec"
 	"strings"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/internal/reexec"
 )
 
 func runSelf(args ...string) ([]byte, error) {
@@ -171,14 +170,14 @@ func TestVmodule(t *testing.T) {
 }
 
 func nicediff(have, want []byte) string {
-	var i = 0
+	i := 0
 	for ; i < len(have) && i < len(want); i++ {
 		if want[i] != have[i] {
 			break
 		}
 	}
-	var end = i + 40
-	var start = i - 50
+	end := i + 40
+	start := i - 50
 	if start < 0 {
 		start = 0
 	}

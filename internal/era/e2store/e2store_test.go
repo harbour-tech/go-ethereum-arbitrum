@@ -19,10 +19,9 @@ package e2store
 import (
 	"bytes"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"io"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 func TestEncode(t *testing.T) {

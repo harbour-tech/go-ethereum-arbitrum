@@ -21,14 +21,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"net/url"
 	"os"
 	"reflect"
 	"strconv"
 	"sync/atomic"
 	"time"
-
-	"github.com/ethereum/go-ethereum/log"
 )
 
 var (

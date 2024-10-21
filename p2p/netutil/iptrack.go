@@ -17,9 +17,8 @@
 package netutil
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"time"
-
-	"github.com/ethereum/go-ethereum/common/mclock"
 )
 
 // IPTracker predicts the external endpoint, i.e. IP address and port, of the local host

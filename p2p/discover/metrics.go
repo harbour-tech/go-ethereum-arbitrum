@@ -18,9 +18,8 @@ package discover
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 	"net"
-
-	"github.com/ethereum/go-ethereum/metrics"
 )
 
 const (

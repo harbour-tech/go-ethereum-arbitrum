@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/rpc"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/math"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/state"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rpc"
 	"github.com/pkg/errors"
 )
 

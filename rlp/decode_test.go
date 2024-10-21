@@ -21,13 +21,13 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/math"
 	"io"
 	"math/big"
 	"reflect"
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/holiman/uint256"
 )
 
@@ -469,9 +469,7 @@ var (
 	veryVeryBigInt = new(big.Int).Exp(veryBigInt, big.NewInt(8), nil)
 )
 
-var (
-	veryBigInt256, _ = uint256.FromBig(veryBigInt)
-)
+var veryBigInt256, _ = uint256.FromBig(veryBigInt)
 
 var decodeTests = []decodeTest{
 	// booleans

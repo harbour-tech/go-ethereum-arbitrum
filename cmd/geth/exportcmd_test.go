@@ -19,10 +19,9 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"os"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // TestExport does a basic test of "geth export", exporting the test-genesis.

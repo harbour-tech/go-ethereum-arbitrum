@@ -17,9 +17,8 @@
 package vm
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

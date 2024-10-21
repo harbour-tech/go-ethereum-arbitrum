@@ -18,9 +18,8 @@ package node_test
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/node"
 	"log"
-
-	"github.com/ethereum/go-ethereum/node"
 )
 
 // SampleLifecycle is a trivial network service that can be attached to a node for

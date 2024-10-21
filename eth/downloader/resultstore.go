@@ -18,10 +18,9 @@ package downloader
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/types"
 	"sync"
 	"sync/atomic"
-
-	"github.com/ethereum/go-ethereum/core/types"
 )
 
 // resultStore implements a structure for maintaining fetchResults, tracking their

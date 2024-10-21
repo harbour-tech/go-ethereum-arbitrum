@@ -23,6 +23,7 @@ package debug
 import (
 	"bytes"
 	"errors"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"io"
 	"os"
 	"os/user"
@@ -35,7 +36,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/hashicorp/go-bexpr"
 	"golang.org/x/exp/slog"
 )

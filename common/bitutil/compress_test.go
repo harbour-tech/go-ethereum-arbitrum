@@ -19,10 +19,9 @@ package bitutil
 import (
 	"bytes"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 	"math/rand"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.
@@ -192,6 +191,7 @@ func FuzzEncoder(f *testing.F) {
 		}
 	})
 }
+
 func FuzzDecoder(f *testing.F) {
 	f.Fuzz(func(t *testing.T, data []byte) {
 		fuzzDecode(data)

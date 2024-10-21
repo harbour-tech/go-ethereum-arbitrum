@@ -36,10 +36,9 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"errors"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/crypto"
 	"math/big"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func TestKDF(t *testing.T) {

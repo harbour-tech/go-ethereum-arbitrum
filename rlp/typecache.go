@@ -18,11 +18,10 @@ package rlp
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp/internal/rlpstruct"
 	"reflect"
 	"sync"
 	"sync/atomic"
-
-	"github.com/ethereum/go-ethereum/rlp/internal/rlpstruct"
 )
 
 // typeinfo is an entry in the type cache.

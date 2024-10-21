@@ -21,10 +21,9 @@ import (
 	"embed"
 	"errors"
 	"hash"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 	"reflect"
 	"sync/atomic"
-
-	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 //go:embed trusted_setup.json

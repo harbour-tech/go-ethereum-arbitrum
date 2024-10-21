@@ -19,9 +19,8 @@ package eth
 import (
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p"
 	"time"
-
-	"github.com/ethereum/go-ethereum/p2p"
 )
 
 var (

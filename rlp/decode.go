@@ -22,13 +22,13 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp/internal/rlpstruct"
 	"io"
 	"math/big"
 	"reflect"
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/rlp/internal/rlpstruct"
 	"github.com/holiman/uint256"
 )
 

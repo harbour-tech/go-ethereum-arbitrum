@@ -19,11 +19,11 @@ package rlp
 import (
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp/internal/rlpstruct"
 	"io"
 	"math/big"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/rlp/internal/rlpstruct"
 	"github.com/holiman/uint256"
 )
 

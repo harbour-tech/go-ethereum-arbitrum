@@ -18,8 +18,7 @@ package snapshot
 
 import (
 	"bytes"
-
-	"github.com/ethereum/go-ethereum/common"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

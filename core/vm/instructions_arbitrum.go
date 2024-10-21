@@ -17,9 +17,8 @@
 package vm
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // adaptation of opBlockHash that doesn't require an EVM stack

@@ -18,8 +18,7 @@ package bloombits
 
 import (
 	"errors"
-
-	"github.com/ethereum/go-ethereum/core/types"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/types"
 )
 
 var (

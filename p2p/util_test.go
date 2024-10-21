@@ -17,10 +17,9 @@
 package p2p
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"testing"
 	"time"
-
-	"github.com/ethereum/go-ethereum/common/mclock"
 )
 
 func TestExpHeap(t *testing.T) {

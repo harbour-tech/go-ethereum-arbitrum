@@ -18,10 +18,9 @@ package rawdb
 
 import (
 	"bytes"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/ethdb"
 	"os"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/ethdb"
 )
 
 func TestResetFreezer(t *testing.T) {

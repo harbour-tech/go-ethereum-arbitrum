@@ -19,14 +19,13 @@ package gasprice
 import (
 	"context"
 	"errors"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rpc"
 	"math/big"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/rpc"
 )
 
 func TestFeeHistory(t *testing.T) {
-	var cases = []struct {
+	cases := []struct {
 		pending             bool
 		maxHeader, maxBlock uint64
 		count               uint64

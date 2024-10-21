@@ -18,9 +18,8 @@ package event_test
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/event"
 	"sync"
-
-	"github.com/ethereum/go-ethereum/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of
@@ -28,8 +27,10 @@ import (
 //
 // Our example program consists of two servers, each of which performs a calculation when
 // requested. The servers also allow subscribing to results of all computations.
-type divServer struct{ results event.Feed }
-type mulServer struct{ results event.Feed }
+type (
+	divServer struct{ results event.Feed }
+	mulServer struct{ results event.Feed }
+)
 
 func (s *divServer) do(a, b int) int {
 	r := a / b

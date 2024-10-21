@@ -20,13 +20,13 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/math"
 	"io"
 	"math/big"
 	"runtime"
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/holiman/uint256"
 )
 
@@ -619,7 +619,7 @@ type structPtrSlice []*structSliceElem
 
 func BenchmarkEncodeStructPtrSlice(b *testing.B) {
 	var out bytes.Buffer
-	var value = structPtrSlice{
+	value := structPtrSlice{
 		&structSliceElem{1, 1, 1},
 		&structSliceElem{2, 2, 2},
 		&structSliceElem{3, 3, 3},

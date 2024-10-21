@@ -19,10 +19,9 @@ package bloombits
 import (
 	"bytes"
 	crand "crypto/rand"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/types"
 	"math/rand"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

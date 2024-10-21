@@ -18,9 +18,8 @@ package types
 
 import (
 	"bytes"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // LegacyTx is the transaction data of the original Ethereum transactions.

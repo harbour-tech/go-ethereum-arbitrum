@@ -18,14 +18,13 @@ package eip4844
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/params"
 	"math/big"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/params"
 )
 
 func TestCalcExcessBlobGas(t *testing.T) {
-	var tests = []struct {
+	tests := []struct {
 		excess uint64
 		blobs  uint64
 		want   uint64

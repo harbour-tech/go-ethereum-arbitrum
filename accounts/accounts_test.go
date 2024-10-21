@@ -18,9 +18,8 @@ package accounts
 
 import (
 	"bytes"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 func TestTextHash(t *testing.T) {

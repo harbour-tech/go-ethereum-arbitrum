@@ -20,10 +20,9 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p/simulations/pipes"
 	"sync"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

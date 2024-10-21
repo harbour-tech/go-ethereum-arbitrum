@@ -19,13 +19,13 @@ package ethtest
 import (
 	"bytes"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"io"
 	"net/http"
 	"os"
 	"path"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/golang-jwt/jwt/v4"
 )
 

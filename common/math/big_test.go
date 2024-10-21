@@ -19,10 +19,9 @@ package math
 import (
 	"bytes"
 	"encoding/hex"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {
@@ -245,6 +244,7 @@ func TestBigEndianByteAt(t *testing.T) {
 		}
 	}
 }
+
 func TestLittleEndianByteAt(t *testing.T) {
 	tests := []struct {
 		x   string

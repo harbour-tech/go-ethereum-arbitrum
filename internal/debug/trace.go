@@ -18,10 +18,9 @@ package debug
 
 import (
 	"errors"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"os"
 	"runtime/trace"
-
-	"github.com/ethereum/go-ethereum/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

@@ -21,10 +21,9 @@ import (
 	"crypto/cipher"
 	"crypto/rand"
 	"encoding/json"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"io"
 	"os"
-
-	"github.com/ethereum/go-ethereum/log"
 )
 
 type storedCredential struct {
@@ -114,7 +113,6 @@ func (s *AESEncryptedStorage) Del(key string) {
 func (s *AESEncryptedStorage) readEncryptedStorage() (map[string]storedCredential, error) {
 	creds := make(map[string]storedCredential)
 	raw, err := os.ReadFile(s.filename)
-
 	if err != nil {
 		if os.IsNotExist(err) {
 			// Doesn't exist yet

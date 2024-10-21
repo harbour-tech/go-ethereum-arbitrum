@@ -18,12 +18,11 @@ package era
 
 import (
 	"bytes"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"io"
 	"math/big"
 	"os"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 type testchain struct {

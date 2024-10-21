@@ -17,9 +17,8 @@
 package tests
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/params"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/params"
 )
 
 func TestTransaction(t *testing.T) {

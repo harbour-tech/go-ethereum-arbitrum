@@ -6,6 +6,7 @@
 package metrics
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"os"
 	"runtime/metrics"
 	"runtime/pprof"
@@ -13,8 +14,6 @@ import (
 	"strings"
 	"syscall"
 	"time"
-
-	"github.com/ethereum/go-ethereum/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp"
 	"math/rand"
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -18,10 +18,10 @@ package node
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rpc"
 	"net/http"
 	"time"
 
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/golang-jwt/jwt/v4"
 )
 

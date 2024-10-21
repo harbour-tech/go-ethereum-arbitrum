@@ -20,9 +20,9 @@
 package metrics
 
 import (
-	syscall "golang.org/x/sys/unix"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 
-	"github.com/ethereum/go-ethereum/log"
+	syscall "golang.org/x/sys/unix"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

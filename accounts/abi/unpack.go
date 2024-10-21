@@ -20,11 +20,10 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math"
 	"math/big"
 	"reflect"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 var (

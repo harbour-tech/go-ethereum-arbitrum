@@ -17,9 +17,9 @@
 package snap
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 )
 

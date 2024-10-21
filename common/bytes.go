@@ -20,8 +20,7 @@ package common
 import (
 	"encoding/hex"
 	"errors"
-
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/hexutil"
 )
 
 // FromHex returns the bytes represented by the hexadecimal string s.

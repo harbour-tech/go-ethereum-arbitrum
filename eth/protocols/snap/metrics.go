@@ -17,7 +17,7 @@
 package snap
 
 import (
-	metrics "github.com/ethereum/go-ethereum/metrics"
+	metrics "https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 )
 
 var (

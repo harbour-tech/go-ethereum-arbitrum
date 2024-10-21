@@ -18,12 +18,11 @@ package enode
 
 import (
 	"encoding/binary"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/p2p/enr"
 	"runtime"
 	"sync/atomic"
 	"testing"
 	"time"
-
-	"github.com/ethereum/go-ethereum/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

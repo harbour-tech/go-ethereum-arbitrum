@@ -19,10 +19,9 @@ package enr
 import (
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp"
 	"io"
 	"net"
-
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 // Entry is implemented by known node record entry types.

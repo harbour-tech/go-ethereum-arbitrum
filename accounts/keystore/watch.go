@@ -20,10 +20,10 @@
 package keystore
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/fsnotify/fsnotify"
 )
 

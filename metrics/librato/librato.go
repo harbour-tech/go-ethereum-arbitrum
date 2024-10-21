@@ -2,12 +2,11 @@ package librato
 
 import (
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/metrics"
 	"log"
 	"math"
 	"regexp"
 	"time"
-
-	"github.com/ethereum/go-ethereum/metrics"
 )
 
 // a regexp for extracting the unit from time.Duration.String
@@ -70,6 +69,7 @@ func sumSquares(icount int64, mean, stDev float64) float64 {
 	}
 	return sumSquares
 }
+
 func sumSquaresTimer(t metrics.TimerSnapshot) float64 {
 	count := float64(t.Count())
 	sumSquared := math.Pow(count*t.Mean(), 2)

@@ -21,10 +21,10 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/log"
 	"golang.org/x/exp/slog"
 )
 

@@ -19,9 +19,8 @@ package snap
 import (
 	"bytes"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 func hexToNibbles(s string) []byte {
@@ -41,7 +40,7 @@ func TestRequestSorting(t *testing.T) {
 	//   - Path 0x99 -> {0x0099}
 	//   - Path 0x01234567890123456789012345678901012345678901234567890123456789019  -> {0x0123456789012345678901234567890101234567890123456789012345678901, 0x19}
 	//   - Path 0x012345678901234567890123456789010123456789012345678901234567890199 -> {0x0123456789012345678901234567890101234567890123456789012345678901, 0x0099}
-	var f = func(path string) string {
+	f := func(path string) string {
 		data := hexToNibbles(path)
 		return string(data)
 	}
@@ -66,7 +65,7 @@ func TestRequestSorting(t *testing.T) {
 	}
 	_, _, syncPaths, pathsets := sortByAccountPath(paths, hashes)
 	{
-		var b = new(bytes.Buffer)
+		b := new(bytes.Buffer)
 		for i := 0; i < len(syncPaths); i++ {
 			fmt.Fprintf(b, "\n%d. paths %x", i, syncPaths[i])
 		}
@@ -86,7 +85,7 @@ func TestRequestSorting(t *testing.T) {
 		}
 	}
 	{
-		var b = new(bytes.Buffer)
+		b := new(bytes.Buffer)
 		for i := 0; i < len(pathsets); i++ {
 			fmt.Fprintf(b, "\n%d. pathset %x", i, pathsets[i])
 		}

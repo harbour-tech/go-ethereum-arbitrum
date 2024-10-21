@@ -18,8 +18,7 @@ package event_test
 
 import (
 	"fmt"
-
-	"github.com/ethereum/go-ethereum/event"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

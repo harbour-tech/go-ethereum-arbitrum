@@ -17,12 +17,11 @@
 package prque
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"math/rand"
 	"sync"
 	"testing"
 	"time"
-
-	"github.com/ethereum/go-ethereum/common/mclock"
 )
 
 const (

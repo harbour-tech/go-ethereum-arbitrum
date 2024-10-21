@@ -19,9 +19,8 @@ package testrand
 import (
 	crand "crypto/rand"
 	"encoding/binary"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	mrand "math/rand"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // prng is a pseudo random number generator seeded by strong randomness.

@@ -18,9 +18,8 @@ package snap
 
 import (
 	"encoding/json"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 	"testing"
-
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // Legacy sync progress definitions
@@ -80,7 +79,7 @@ func makeLegacyProgress() legacyProgress {
 				Next: common.Hash{},
 				Last: common.Hash{0x77},
 				SubTasks: map[common.Hash][]*legacyStorageTask{
-					common.Hash{0x1}: {
+					{0x1}: {
 						{
 							Next: common.Hash{},
 							Last: common.Hash{0xff},

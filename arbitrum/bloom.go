@@ -1,9 +1,8 @@
 package arbitrum
 
 import (
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/eth"
 	"time"
-
-	"github.com/ethereum/go-ethereum/eth"
 )
 
 const (

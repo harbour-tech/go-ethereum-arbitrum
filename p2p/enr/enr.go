@@ -37,10 +37,9 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/rlp"
 	"io"
 	"sort"
-
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

@@ -18,9 +18,9 @@ package prque
 
 import (
 	"container/heap"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common/mclock"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
 	"golang.org/x/exp/constraints"
 )
 

@@ -18,15 +18,16 @@ package rpc
 
 import (
 	"context"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"io"
 	"sync"
 	"sync/atomic"
-
-	"github.com/ethereum/go-ethereum/log"
 )
 
-const MetadataApi = "rpc"
-const EngineApi = "engine"
+const (
+	MetadataApi = "rpc"
+	EngineApi   = "engine"
+)
 
 // CodecOption specifies which type of messages a codec supports.
 //

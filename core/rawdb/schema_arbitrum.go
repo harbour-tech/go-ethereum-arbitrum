@@ -19,7 +19,7 @@
 package rawdb
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/common"
 )
 
 const WasmSchemaVersion byte = 0x01
@@ -29,8 +29,10 @@ const WasmPrefixLen = 3
 // WasmKeyLen = CompiledWasmCodePrefix + moduleHash
 const WasmKeyLen = WasmPrefixLen + common.HashLength
 
-type WasmPrefix = [WasmPrefixLen]byte
-type WasmKey = [WasmKeyLen]byte
+type (
+	WasmPrefix = [WasmPrefixLen]byte
+	WasmKey    = [WasmKeyLen]byte
+)
 
 var (
 	wasmSchemaVersionKey = []byte("WasmSchemaVersion")
@@ -45,8 +47,8 @@ var (
 func DeprecatedPrefixesV0() (keyPrefixes [][]byte, keyLength int) {
 	return [][]byte{
 		// deprecated prefixes, used in version 0x00, purged in version 0x01
-		[]byte{0x00, 'w', 'a'}, // ActivatedAsmPrefix
-		[]byte{0x00, 'w', 'm'}, // ActivatedModulePrefix
+		{0x00, 'w', 'a'}, // ActivatedAsmPrefix
+		{0x00, 'w', 'm'}, // ActivatedModulePrefix
 	}, 3 + 32
 }
 

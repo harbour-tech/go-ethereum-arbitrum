@@ -20,12 +20,11 @@ package msgrate
 import (
 	"context"
 	"errors"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/log"
 	"math"
 	"sort"
 	"sync"
 	"time"
-
-	"github.com/ethereum/go-ethereum/log"
 )
 
 // measurementImpact is the impact a single measurement has on a peer's final

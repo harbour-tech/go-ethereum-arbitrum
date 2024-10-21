@@ -19,8 +19,7 @@ package compiler
 import (
 	"errors"
 	"fmt"
-
-	"github.com/ethereum/go-ethereum/core/asm"
+	"https://github.com/harbour-tech/go-ethereum-arbitrum/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {
